@@ -83,12 +83,9 @@ for(let i = 0; i < number; i++) {
     if (i % 2 != 0) {
         continue;
     } 
-    if (i === 0) {
+    if (i === 0 || i === 22) {
         continue;
     } 
-    if (i === 22) {
-        continue;
-    }
     console.log(i)
 }
 
