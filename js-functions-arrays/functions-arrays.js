@@ -1,6 +1,6 @@
 // Task 1
 function comparisonFirst(a, b) {
-    return a > b ? a : b; 
+  return a > b ? a : b; 
 }
 
 const result1 = comparisonFirst(7, 4);
