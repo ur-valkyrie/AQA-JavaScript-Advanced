@@ -123,7 +123,7 @@ class PeopleRegistry extends Person {
             console.log(`Name: ${person.firstName}`);
             console.log(`Last name: ${person.lastName}`);
             console.log(`Age: ${person.age}`);
-            console.log();
+            console.log(); // for separating persons
         })
     }
 }
